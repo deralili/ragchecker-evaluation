@@ -1,6 +1,6 @@
-# RAGChecker Evaluation of Retrieval-Augmented Generation Systems
+# RAGCHECKER: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation
 
-> DS8008 Final Project — Text Mining
+> DS8008 Final Project — NLP / Text Mining
 
 ---
 
