@@ -124,8 +124,6 @@ This project uses the following datasets:
 - **CLAPNQ**
 - **LoTTE (Science Corpus)**
 
-Due to size limitations, only a small subset is included in the `data/` folder.
-
 ### 🔗 Full Dataset Access
 - https://huggingface.co/datasets  
 - https://ir-datasets.com/  
