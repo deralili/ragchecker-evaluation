@@ -159,6 +159,20 @@ pip install datasets sentence-transformers faiss-cpu
 
 ---
 
+## 👥 Citation
+
+@misc{ru2024ragcheckerfinegrainedframeworkdiagnosing,
+      title={RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation}, 
+      author={Dongyu Ru and Lin Qiu and Xiangkun Hu and Tianhang Zhang and Peng Shi and Shuaichen Chang and Jiayang Cheng and Cunxiang Wang and Shichao Sun and Huanyu Li and Zizhao Zhang and Binjie Wang and Jiarong Jiang and Tong He and Zhiguo Wang and Pengfei Liu and Yue Zhang and Zheng Zhang},
+      year={2024},
+      eprint={2408.08067},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2408.08067}, 
+}
+
+---
+
 ## 📌 Notes
 
 - Only a subset of data is included due to size constraints  
