@@ -168,33 +168,33 @@ This project uses the following datasets:
 - 1️⃣ Open the notebook
   ragchecker.ipynb
 - 2️⃣ Install dependencies
-  pip install pandas numpy datasets sentence-transformers faiss-cpu rank-bm25 openai ragchecker
+  - pip install pandas numpy datasets sentence-transformers faiss-cpu rank-bm25 openai ragchecker
 - 3️⃣ Run all notebook cells sequentially
 
 ---
 
 ## 🧠 Key Insights
-RAG performance depends on the interaction between retrieval and generation
-Strong generation does not always guarantee factual reliability
-Dense retrieval improves coverage, while sparse retrieval improves precision
-Fine-grained evaluation is more informative than coarse answer-level metrics
-Different RAG systems optimize different objectives (accuracy vs grounding)
+- RAG performance depends on the interaction between retrieval and generation
+- Strong generation does not always guarantee factual reliability
+- Dense retrieval improves coverage, while sparse retrieval improves precision
+- Fine-grained evaluation is more informative than coarse answer-level metrics
+- Different RAG systems optimize different objectives (accuracy vs grounding)
 
 ---
 
 ## 🔮 Future Improvements
-Use stronger dense retrievers such as E5-Mistral or reranking models
-Add prompt engineering / constrained generation to reduce hallucination
-Evaluate on larger multi-domain benchmarks
-Re-implement claim extraction and entailment checking manually
-Explore hybrid retrieval (FAISS + BM25)
+- Use stronger dense retrievers such as E5-Mistral or reranking models
+- Add prompt engineering / constrained generation to reduce hallucination
+- Evaluate on larger multi-domain benchmarks
+- Re-implement claim extraction and entailment checking manually
+- Explore hybrid retrieval (FAISS + BM25)
 
 ---
 
 ## 👥 Authors
-Amadike Chidera Lilian
-Ogakwu Jeff
-David Philemon
+- Amadike Chidera Lilian
+- Ogakwu Jeff
+- David Philemon
 
 ---
 
@@ -212,7 +212,7 @@ David Philemon
 ---
 
 ## 📌 Notes
-Only a subset of datasets is included locally due to storage limitations
-Full datasets should be downloaded separately
-Results may vary depending on API model version or retrieval parameters
-Notebook is designed for educational and research purposes
+- Only a subset of datasets is included locally due to storage limitations
+- Full datasets should be downloaded separately
+- Results may vary depending on API model version or retrieval parameters
+- Notebook is designed for educational and research purposes
