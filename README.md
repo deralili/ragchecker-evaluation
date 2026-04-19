@@ -149,48 +149,56 @@ ragchecker-project/
 
 ```
 
-📚 Datasets
+---
+
+## 📚 Datasets
 
 This project uses the following datasets:
 
-NovelQA
-CLAPNQ
-LoTTE (Science Corpus)
+- NovelQA
+- CLAPNQ
+- LoTTE (Science Corpus)
 🔗 Full Dataset Sources
-https://huggingface.co/datasets
-https://ir-datasets.com/
+- https://huggingface.co/datasets
+- https://ir-datasets.com/
 
-🚀 How to Run
-1️⃣ Open the notebook
-ragchecker.ipynb
-2️⃣ Install dependencies
-pip install pandas numpy datasets sentence-transformers faiss-cpu rank-bm25 openai ragchecker
-3️⃣ Run all notebook cells sequentially
+---
 
+## 🚀 How to Run
+- 1️⃣ Open the notebook
+  ragchecker.ipynb
+- 2️⃣ Install dependencies
+  pip install pandas numpy datasets sentence-transformers faiss-cpu rank-bm25 openai ragchecker
+- 3️⃣ Run all notebook cells sequentially
 
-🧠 Key Insights
+---
+
+## 🧠 Key Insights
 RAG performance depends on the interaction between retrieval and generation
 Strong generation does not always guarantee factual reliability
 Dense retrieval improves coverage, while sparse retrieval improves precision
 Fine-grained evaluation is more informative than coarse answer-level metrics
 Different RAG systems optimize different objectives (accuracy vs grounding)
 
+---
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 Use stronger dense retrievers such as E5-Mistral or reranking models
 Add prompt engineering / constrained generation to reduce hallucination
 Evaluate on larger multi-domain benchmarks
 Re-implement claim extraction and entailment checking manually
 Explore hybrid retrieval (FAISS + BM25)
 
+---
 
-👥 Authors
+## 👥 Authors
 Amadike Chidera Lilian
 Ogakwu Jeff
 David Philemon
 
+---
 
-📄 Citation
+## 📄 Citation
 @misc{ru2024ragcheckerfinegrainedframeworkdiagnosing,
   title={RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation},
   author={Dongyu Ru and Lin Qiu and Xiangkun Hu and Tianhang Zhang and Peng Shi and others},
@@ -201,8 +209,9 @@ David Philemon
   url={https://arxiv.org/abs/2408.08067}
 }
 
+---
 
-📌 Notes
+## 📌 Notes
 Only a subset of datasets is included locally due to storage limitations
 Full datasets should be downloaded separately
 Results may vary depending on API model version or retrieval parameters
