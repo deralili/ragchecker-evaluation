@@ -191,10 +191,8 @@ This project uses the following datasets:
 
 ---
 
-## 👥 Authors
+## 👥 Author
 - Amadike Chidera Lilian
-- Ogakwu Jeff
-- David Philemon
 
 ---
 
